@@ -53,11 +53,8 @@ En window:
 Mostramos una posible salida del programa para ver su funcionamiento:
 ~~~
 usuario@usuario:~/Escritorio/tp7Ev2$ java -cp ../misjar/*:. Tienda
-
 Bienvenido a Muebles S.A...
-
 Lista de productos: (nombre:marca:precio)
-
 Mesa:KENZO:69.99
 
 Libreria:Kallax:399.99
