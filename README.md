@@ -134,5 +134,40 @@ Por defecto solo está comentado grabar en un seridor redis. Si no queremos grab
 //daotxt.grabar(una_compra);
 ~~~
 
+### Base de datos
+En el proyecto se usa la base de datos sqlite3. Para instalar sqlite3:
+- Linux:
+
+` sudo apt install sqlite3 `
+
+- Window:
+
+
+Por defecto en el programa creamos la tabla "compras". Podemos modificar el nombre de la tabla dentro del fichero DAOImpComprasSQL en la siguiente línea:
+
+` final String SQL = "CREATE TABLE IF NOT EXISTS compras (cliente text, nombre text, marca text, cant integer, precio double, fecha text primary key);"; `
+
+Para abrir nuestra base de datos con sqlite3 ejecutamos lo siguiente:
+
+` sqlite3 datos/compras.bd `
+
+Para ver todos los registros añadidos a nuestra BD usamos esta consulta:
+
+` select * from compras; `
+
+Aquí tenemos una salida de ejemplo:
+
+~~~
+usuario@usuario:~/Escritorio/tp7Ev2$ sqlite3 datos/compras.db 
+SQLite version 3.22.0 2018-01-22 18:45:57
+Enter ".help" for usage hints.
+sqlite> select * from compras;
+Pepito|Mesa|KENZO|2|139.98|Mon Mar 11 11:23:13 CET 2019
+Pepito|Butaca|Charlotte|1|239.5|Mon Mar 11 11:23:19 CET 2019
+Juanito|Silla|Amelia|2|110.0|Mon Mar 11 11:23:32 CET 2019
+Juanito|Libreria|Kallax|2|799.98|Mon Mar 11 11:23:48 CET 2019
+
+~~~
+
 ### Autores 
 Francisco Bocanegra Rodríguez y Maria Felix Wyns
