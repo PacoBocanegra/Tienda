@@ -51,8 +51,8 @@ En window:
 
 ### Resultado de la ejecución
 Mostramos una posible salida del programa para ver su funcionamiento:
-
-` usuario@usuario:~/Escritorio/tp7Ev2$ java -cp ../misjar/*:. Tienda
+~~~
+usuario@usuario:~/Escritorio/tp7Ev2$ java -cp ../misjar/*:. Tienda
 
 Bienvenido a Muebles S.A...
 
@@ -151,7 +151,8 @@ Pepito ha comprado 1 Butaca marca Charlotte ------ 239.5€
 
 Juanito ha comprado 2 Silla marca Amelia ------ 110.0€
 
-Juanito ha comprado 2 Libreria marca Kallax ------ 799.98€`
+Juanito ha comprado 2 Libreria marca Kallax ------ 799.98€
+~~~
 
 
 Después de acabar la ejecución, si tenemos descomentado la parte del codigo que graba en los diferentes ficheros o base de datos, nos grabará los registros donde hayamos dicho en el programa.
@@ -159,37 +160,38 @@ Después de acabar la ejecución, si tenemos descomentado la parte del codigo qu
 ### Grabar datos
 
 La parte del código que se encarga de grabar los registros es el siguiente:
+~~~
+//DAOCompra daocompra = new DAOImpCompraRedis();
 
-` //DAOCompra daocompra = new DAOImpCompraRedis();
+DAOCompra daobin = new DAOImpCompraFileBin();
+  
+DAOCompra daotxt = new DAOImpCompraFileText();
 
-  DAOCompra daobin = new DAOImpCompraFileBin();
+DAOCompra daosql = new DAOImpCompraSQL();
   
-  DAOCompra daotxt = new DAOImpCompraFileText();
+...
   
-  DAOCompra daosql = new DAOImpCompraSQL();
+...
   
-  ...
+...
   
-  ...
+//daocompra.grabar(una_compra);
   
-  ...
+daobin.grabar(una_compra); 
   
-  //daocompra.grabar(una_compra);
+daotxt.grabar(una_compra);
   
-  daobin.grabar(una_compra); 
-  
-  daotxt.grabar(una_compra);
-  
-  daosql.grabar(una_compra); `
+daosql.grabar(una_compra); 
+~~~
   
 
 Por defecto solo está comentado grabar en un seridor redis. Si no queremos grabar en algún otro solo bastaria con comentar las lineas correspondiente. Por ejemplo, si no queremos grabar en un fichero de texto, comentamos estas lineas:
 
-`
+~~~
 //DAOCompra daotxt = new DAOImpCompraFileText();
 
 //daotxt.grabar(una_compra);
-`
+~~~
 
 ### Autores 
 Francisco Bocanegra Rodríguez y Maria Felix Wyns
