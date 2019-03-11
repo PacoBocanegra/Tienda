@@ -149,11 +149,11 @@ Por defecto en el programa creamos la tabla "compras". Podemos modificar el nomb
 
 Para abrir nuestra base de datos con sqlite3 ejecutamos lo siguiente:
 
-     ` sqlite3 datos/compras.bd `
+` sqlite3 datos/compras.bd `
 
 Para ver todos los registros añadidos a nuestra BD usamos esta consulta:
 
-     ` select * from compras; `
+` select * from compras; `
 
 Aquí tenemos una salida de ejemplo:
 
