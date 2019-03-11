@@ -2,7 +2,9 @@
 
 ## Trabaja con mi proyecto
  Para trabajar con mi proyecto deberás hacer una copia local. Para ello puedes usar:
+ 
  `git clone https://github.com/PacoBocanegra/Tienda.git`
+ 
  `svn checkout https://github.com/PacoBocanegra/Tienda.git` 
 
 ### En que consiste
