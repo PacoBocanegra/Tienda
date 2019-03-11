@@ -52,8 +52,7 @@ En window:
 ### Resultado de la ejecución
 Mostramos una posible salida del programa para ver su funcionamiento:
 
-` 
-usuario@usuario:~/Escritorio/tp7Ev2$ java -cp ../misjar/*:. Tienda
+` usuario@usuario:~/Escritorio/tp7Ev2$ java -cp ../misjar/*:. Tienda
 Bienvenido a Muebles S.A...
 Lista de productos: (nombre:marca:precio)
 Mesa:KENZO:69.99
@@ -104,8 +103,7 @@ Lista de compras:
 Pepito ha comprado 2 Mesa marca KENZO ------ 139.98€
 Pepito ha comprado 1 Butaca marca Charlotte ------ 239.5€
 Juanito ha comprado 2 Silla marca Amelia ------ 110.0€
-Juanito ha comprado 2 Libreria marca Kallax ------ 799.98€
-`
+Juanito ha comprado 2 Libreria marca Kallax ------ 799.98€`
 
 Después de acabar la ejecución, si tenemos descomentado la parte del codigo que graba en los diferentes ficheros o base de datos, nos grabará los registros donde hayamos dicho en el programa.
 
