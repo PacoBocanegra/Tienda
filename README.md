@@ -19,7 +19,7 @@ Consiste en registrar las compras de los clientes de una tienda que tiene sus pr
       
   - Window:
   
-      ``
+      - Descargar java por la página de oracle [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 - Tener el jar de sqlite3:
 
