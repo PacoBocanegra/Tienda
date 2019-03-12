@@ -19,7 +19,12 @@ Consiste en registrar las compras de los clientes de una tienda que tiene sus pr
       
   - Window:
   
-      - Descargar java por la página de oracle [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+      - Descargar java y javac por la página de oracle [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+      - Encontrar el directorio bin dentro del directorio de java (por defecto: C:\archivos de programas\java\jdk\bin)
+      - Copiar la ruta completa del directorio bin
+      - Añadimos la ruta en el PATH en la configuración de variables de entornos
+      - Iniciamos una nueva terminal y probamos que funciona
+      
 
 - Tener el jar de sqlite3:
 
