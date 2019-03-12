@@ -28,11 +28,11 @@ Consiste en registrar las compras de los clientes de una tienda que tiene sus pr
 
 - Tener el jar de sqlite3:
 
-sqlite-jdbc-3.25.2.jar [here](http://central.maven.org/maven2/org/xerial/sqlite-jdbc/3.25.2/sqlite-jdbc-3.25.2.jar)
+     - sqlite-jdbc-3.25.2.jar [here](http://central.maven.org/maven2/org/xerial/sqlite-jdbc/3.25.2/sqlite-jdbc-3.25.2.jar)
 
 - Tener el jar de redis:
 
-jedis-2.10.0.jar [here](http://central.maven.org/maven2/redis/clients/jedis/2.10.0/jedis-2.10.0.jar)
+     - jedis-2.10.0.jar [here](http://central.maven.org/maven2/redis/clients/jedis/2.10.0/jedis-2.10.0.jar)
 
 
 ### Cómo ejecutar el programa
