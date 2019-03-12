@@ -146,11 +146,11 @@ En el proyecto se usa la base de datos sqlite3. Para instalar sqlite3:
 ` sudo apt install sqlite3 `
 
 - Window:
- - Descargar SQLite3 [here](https://sqlite.org/2019/sqlite-dll-win32-x86-3270200.zip)
- - Creamos el directorio C:\sqlite
- - Extraemos el zip dentro del directorio y los ficheros dentro de la carpeta extraida los movemos al directorio sqlite
- - Entramos a la ruta C:\sqlite y ejecutamos sqlite3
- - Podemos borrar el zip y el directorio sobrante
+  - Descargar SQLite3 [here](https://sqlite.org/2019/sqlite-dll-win32-x86-3270200.zip)
+  - Creamos el directorio C:\sqlite
+  - Extraemos el zip dentro del directorio y los ficheros dentro de la carpeta extraida los movemos al directorio sqlite
+  - Entramos a la ruta C:\sqlite y ejecutamos sqlite3
+  - Podemos borrar el zip y el directorio sobrante
 
 
 Por defecto en el programa creamos la tabla "compras". Podemos modificar el nombre de la tabla dentro del fichero DAOImpComprasSQL en la siguiente línea:
