@@ -1,6 +1,10 @@
 import java.util.List;
 import java.util.ArrayList;
-import java.io.*;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.Console;
+
 
 public class Tienda {
     public static void main(String args[]) {
@@ -54,7 +58,7 @@ public class Tienda {
 				        System.out.println("Cantidad de " + nombre + ": ? ");
 				        input = console.readLine();
 				        int cant = Integer.parseInt(input);
-				        Double c = new Double(cant);
+				        Double c = Double.valueOf(cant);
 				        Double precio_total = Double.parseDouble(precio) * c;
 				        una_compra.setAp(nombre, marca, precio_total);
 				        una_compra.setCant(cant);

@@ -1,4 +1,5 @@
-import java.io.*;
+import java.io.FileWriter;
+import java.io.IOException;
 
 
 public class DAOImpCompraFileText implements DAOCompra {

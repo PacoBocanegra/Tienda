@@ -1,4 +1,7 @@
-import java.io.*;
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+import java.io.IOException;
+import java.io.File;
 
 
 public class DAOImpCompraFileBin implements DAOCompra {
