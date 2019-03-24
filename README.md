@@ -179,5 +179,5 @@ Juanito|Libreria|Kallax|2|799.98|Mon Mar 11 11:23:48 CET 2019
 
 ~~~
 
-### Autores 
-Francisco Bocanegra Rodríguez y Maria Felix Wyns
+### Autor
+Francisco Bocanegra Rodríguez
